@@ -3,7 +3,7 @@
 
 import UIKit
 
-extension UIView {
+public extension UIView {
     var isVisible: Bool {
         set { self.isHidden = !newValue }
         get { self.isHidden == false }
