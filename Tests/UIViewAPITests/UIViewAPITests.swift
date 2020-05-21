@@ -2,7 +2,7 @@ import XCTest
 @testable import UIViewAPI
 
 final class UIViewAPITests: XCTestCase {
-    #if canImport(UIKit)
+#if canImport(UIKit)
     
     func test_shouldReturn_false_for_hiddenViews() {
         // Arrange
@@ -89,5 +89,5 @@ final class UIViewAPITests: XCTestCase {
         XCTAssertFalse(sut.isNotVisible)
     }
     
-    #endif
+#endif
 }
