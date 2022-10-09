@@ -1,3 +1,6 @@
+![Main](https://github.com/sloik/SweetBool/actions/workflows/swift.yml/badge.svg?branch=main)
+![Nightly](https://github.com/sloik/SweetBool/actions/workflows/nightly.yml/badge.svg)
+
 # UIViewAPI
 
 UIKit related domain extensions that you just have to write from project to project.
