@@ -21,15 +21,15 @@ public extension UIView {
 }
 
 public extension UILabel {
-    var getIntrinsicLabelWidth: CGFloat {
+    var intrinsicWidth: CGFloat {
         get { self.intrinsicContentSize.width }
     }
     
-    var getLabelWidth: CGFloat {
+    var width: CGFloat {
         get { self.frame.width }
     }
     
-    func numberOfLines() -> Int {
+    var linesCount: Int {
       guard let myText = self.text as NSString? else {
         return 0
       }
