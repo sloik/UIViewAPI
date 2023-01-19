@@ -58,11 +58,33 @@ view.isHidden = true
 
 That way you can **always** say what you want without inverted logic! 🤓
 
+# intrinsicWidth
+
+If you need to get intrinsic width of UILabel (width of a label based on its content - font and text) 
+
+```swift
+yourLabel.intrinsicWidth
+```
+
+# width
+
+If you need to get width of UILabel 
+
+```swift
+yourLabel.width
+```
+
+# linesCount
+
+If you need to get number of lines in UILabel. If your view uses Auto Layout call self.layoutIfNeeded() to receive proper number of lines.
+
+```swift
+yourLabel.linesCount
+```
+
 # That's it
 
 Hope it will help you :)
-
-If you want to find out more about me and some more Swift stuff then I invite you to my site: http://idoit.tech/en/
 
 Cheers! :D
 
